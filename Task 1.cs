@@ -83,13 +83,13 @@ public class Program
     {
         // Using no-argument constructor
         Student student1 = new Student();
-        student1.Name = "Wajahat";
-        student1.RegNo = "233559";
-        student1.Age = 20;
-        student1.Program = Department.Engineering;
+        student1.Name = "Shah Abdullah";
+        student1.RegNo = "233585";
+        student1.Age = 21;
+        student1.Program = Computer.Science;
 
         // Using multi-argument constructor
-        Student student2 = new Student("Laiba", "233560", 22, Department.Science);
+        Student student2 = new Student("Hassan", "233607", 22, Business.Administration);
 
         // Output the details
         Console.WriteLine("Student 1:");
