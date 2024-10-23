@@ -218,11 +218,11 @@ namespace AirlineReservationSystem
 
             RetailCustomer customer = new RetailCustomer();
             customer.SetCustomerId(1);
-            customer.SetFirstName("Wajahat");
-            customer.SetLastName("ul Hasnain");
-            customer.SetEmail("wajahat.doe@example.com");
+            customer.SetFirstName("Shah");
+            customer.SetLastName("Abdullah");
+            customer.SetEmail("ShahAbdullah@gmail.com");
             customer.SetCreditCardType("Visa");
-            customer.SetCreditCardNo("1234-5678-9876-5432");
+            customer.SetCreditCardNo("3152-5147-1746-9257");
 
             Reservation reservation = new Reservation();
             reservation.SetReservationNo(1001);
